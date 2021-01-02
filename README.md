@@ -7,10 +7,12 @@ I hopes to see jobs by different agents that are actually the same job by doing 
 
 # Running a spider
 
-My first working spider can be invoked like this to get a file of JSON lines:
+My first working spiders can be invoked like this to get a file of JSON lines:
 
 * cd jobscraper/jobscraper
 * scrapy crawl jobs-perl-org -o jobs.perl.org.jl
+* scrapy crawl jobsite-single -o j.jl
+
 
 To view the json lines in a friendly way do:
 
