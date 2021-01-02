@@ -7,7 +7,7 @@ class JobsPerlOrgSpider(scrapy.Spider):
     start_urls = ['https://jobs.perl.org/job/21750']
 
     def parse(self, response):
-        hash = {}
+        hash = { 'url': response.url }
 
         for tr in response.xpath('/html/body/table[2]/tr'):
             td1 = tr.xpath('td[1]/text()')
