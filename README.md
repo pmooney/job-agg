@@ -11,6 +11,7 @@ My first working spiders can be invoked like this to get a file of JSON lines:
 
 * cd jobscraper/jobscraper
 * scrapy crawl jobs-perl-org -o jobs.perl.org.jl
+* scrapy crawl jobsite-co-uk -o jobsite.jl
 * scrapy crawl jobsite-single -o j.jl
 
 
