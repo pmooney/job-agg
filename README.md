@@ -21,7 +21,7 @@ To view the json lines in a friendly way do:
 
 # History
 
-I create a new project in gihub first so I could get the python .gitignore file created for me and did this:
+I created a new project in gihub first so I could get the python .gitignore file created for me and did this:
 
 * git clone https://github.com/pmooney/job-agg.git
 * cd job-agg
